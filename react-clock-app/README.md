@@ -1,3 +1,7 @@
+# Clock using React
+
+This project is a clock reated using react.js which tells you the tims using the Date() object in javascript, it basically converts the time into string and then displays it.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
