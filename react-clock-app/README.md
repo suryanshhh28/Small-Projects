@@ -1,10 +1,18 @@
 # Clock using React
 
-This project is a clock reated using react.js which tells you the tims using the Date() object in javascript, it basically converts the time into string and then displays it.
+This project is a clock reated using react.js which tells you the tims using the Date() object in javascript, it basically converts the time into string and then displays it ⏰
 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Installing dependencies 
+
+### `npm install`
+
+First of all run `npm install` command in your terminal where you have opened this folder in order to install all the dependencies that are required for this project.
+
+All the main code is for this project is in the src/ folder.
 
 ## Available Scripts
 
