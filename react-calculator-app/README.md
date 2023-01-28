@@ -6,6 +6,10 @@ This is a simple calculator project made only using react and javascript fundame
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Installing dependencies 
+
+First run `npm install` command in your terminal 
+
 ## Available Scripts
 
 In the project directory, you can run:
