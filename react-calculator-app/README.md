@@ -2,7 +2,7 @@
 
 This is a simple calculator project made only using react and javascript fundamentals 🧮
 
-##Preview
+## Preview
 
 ![image](https://user-images.githubusercontent.com/94606338/215284237-7014d078-fc25-47f9-83ec-d5a9b728ec31.png)
 
