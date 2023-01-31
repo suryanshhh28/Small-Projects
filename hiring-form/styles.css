@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fullformbody {
+    background: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    margin: 3rem;
+}
+
+form, form label {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.sometext {
+    color: rgb(60, 60, 60);
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 0;
+}
+
+form h1 {   
+    background: white;
+    color: rgb(24, 22, 22);
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+form input, form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: rgb(235, 235, 235);
+    border-radius: 10px; 
+    font-size: 16px;
+}
+
+form button {
+    padding: 15px;
+    background: #ff5361;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+
+.yearselector, .positionselector {
+    accent-color: red;
+}
+
+.radiobuttonforyear {
+    display: flex;
+}
+
+.radiobuttonforyear label {
+    padding: 0.7rem;
+}
+
+.radiobuttonforyear input {
+    width: auto;
+    margin: 0;
+}
+
+.radiobuttonforpost label {
+    padding: 0.7rem;
+}
+
+.radiobuttonforpost {
+    display: flex;
+}
+
+.radiobuttonforpost input {
+    width: auto;
+}
+
+textarea {
+    resize: none;
+}
+

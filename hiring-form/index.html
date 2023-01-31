@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>ADC Hiring Form</title>
+  </head>
+  <body>
+    <div class="fullformbody">
+        <!-- onsubmit="sendEmail(); reset(); return false;" -->
+      <form>
+        <h1>ADC Core Team Hiring Form</h1>
+        <br>
+
+        <label for="" class="sometext">Name</label>
+        <input type="text" id="namefield" placeholder="Full Name" required />
+        <br>
+
+        <label for="" class="sometext">Email</label>
+        <input type="text" placeholder="Email" id="emailfield" required />
+        <br>
+
+        <label for="" class="sometext">Contact Number</label>
+        <input
+          type="text"
+          placeholder="Contact Number"
+          id="phonefield"
+          required
+        />
+        <br>
+
+        <label for="" class="sometext">Branch</label>
+        <input type="text" placeholder="Branch" id="branchfield" />
+        <br>
+
+        <div class="yearselector">
+          <label for="" class="sometext">Year</label>
+
+          <div class="radiobuttonforyear">
+            <input type="radio" name="year" id="firstyear" value="first" />
+            <label for="firstyear">1st</label>
+          </div>
+
+          <div class="radiobuttonforyear">
+            <input type="radio" name="year" id="secondyear" value="second" />
+            <label for="secondyear">2nd</label>
+          </div>
+
+          <div class="radiobuttonforyear">
+            <input type="radio" name="year" id="thirdyear" value="third" />
+            <label for="thirdyear">3rd</label>
+          </div>
+
+          <div class="radiobuttonforyear">
+            <input type="radio" name="year" id="fourthyear" value="fourth" />
+            <label for="fourthyear">4th</label>
+          </div>
+        </div>
+        <br>
+
+        <div class="positionselector">
+          <label for="" class="sometext"
+            >Position for which you are applying</label
+          >
+
+          <div class="radiobuttonforpost">
+            <input
+              type="radio"
+              name="pos"
+              id="technicalpos"
+              value="technical"
+            />
+            <label for="technicalpos">Technical</label>
+          </div>
+
+          <div class="radiobuttonforpost">
+            <input type="radio" name="pos" id="eventpos" value="event" />
+            <label for="eventpos">Event</label>
+          </div>
+
+          <div class="radiobuttonforpost">
+            <input
+              type="radio"
+              name="pos"
+              id="designandbrandingpos"
+              value="designandbranding"
+            />
+            <label for="designandbrandingpos">Design and Branding</label>
+          </div>
+
+          <div class="radiobuttonforpost">
+            <input
+              type="radio"
+              name="pos"
+              id="publicrelationspos"
+              value="publicrelations"
+            />
+            <label for="publicrelationspos">Public relations</label>
+          </div>
+
+          <div class="radiobuttonforpost">
+            <input
+              type="radio"
+              name="pos"
+              id="marketingpos"
+              value="marketing"
+            />
+            <label for="marketingpos">Marketing</label>
+          </div>
+
+          <div class="radiobuttonforpost">
+            <input
+              type="radio"
+              name="pos"
+              id="socialmediahandlerpos"
+              value="socialmedia"
+            />
+            <label for="socialmediahandlerpos">Social media handler</label>
+          </div>
+        </div>
+        <br>
+
+        <label for="experiences" class="sometext">Any past experiences?</label>
+        <textarea name="" id="experiences" cols="30" rows="10"></textarea>
+        <br>
+
+        <label for="hire" class="sometext">Why should we hire you?</label>
+        <textarea name="" id="hire" cols="30" rows="10"></textarea>
+
+        <button>Submit</button>
+      </form>
+    </div>
+
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="app.js"></script> -->
+
+  </body>
+</html>
